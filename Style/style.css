@@ -1,0 +1,39 @@
+.calculator {
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(https://imgs.search.brave.com/a2UPS4VstYhcWXLJhEMMDRhnmQpRnBxAZ5_st22mkzc/rs:fit:860:0:0/g:ce/aHR0cDovL3lvdXJn/aXJsa25vd3MuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIw/LzA4LzRBRTY4NTlF/LThERTctNDg3RS04/NkVCLTZBRDRGQTFD/RDJEOS5qcGVn);
+    border-radius: 10px;
+    padding: 20px;
+    color: #333;
+  }
+  .display {
+    background-color: pink;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 36px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    text-align: right;
+  }
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .btn {
+    background-color: whitesmoke;
+    color: #CF9FFF	;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    font-size: 24px;
+    margin: 10px;
+    float: left;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 70px;
+  }
